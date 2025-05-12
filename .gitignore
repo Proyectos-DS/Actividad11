@@ -1,0 +1,8 @@
+# Entorno virtual
+.venv/
+
+# README temporal
+README.md
+
+# pycache
+__pycache__/
