@@ -2,6 +2,7 @@
 
 ### Estructura final de la Actividad
 
+```text
 ├── src
 │   ├── __init__.py
 │   └── stack.py
@@ -12,6 +13,7 @@
 ├── README.md
 ├── requirements.txt
 └── setup.cfg
+```
 
 
 ## Paso 1: Instalación de pytest y pytest-cov
