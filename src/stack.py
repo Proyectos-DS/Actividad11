@@ -1,9 +1,8 @@
 from typing import Any
 
-
 class Stack:
-
-    def _init__(self):
+    
+    def __init__(self):
         self.stack: list[Any] = []
         self.size = 0
 
@@ -12,13 +11,13 @@ class Stack:
         self.size += 1
 
     def pop(self) -> Any:
-        if self.size > 1:
-            self.stack.pop(0)
+        if self.size > 0:
             self.size -= 1
+            return self.stack.pop(0)
+            
 
     def peek(self) -> Any:
-        data = self.stack[0]
-        return data
+        return self.stack[0]
 
     def is_empty(self) -> bool:
         return self.size == 0
