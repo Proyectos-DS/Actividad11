@@ -6,3 +6,4 @@ README.md
 
 # pycache
 __pycache__/
+.pytest_cache
